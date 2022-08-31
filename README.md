@@ -17,9 +17,9 @@ This problem is amplified by remote and hybrid education. Prior to the pandemic,
 We wanted to take this opportunity to develop a tool that would make it easy for students with such conditions to participate in the classroom (and potentially employees in the workplace) without access to disability services.
 
 ## Overview
-Speechful is a document editing tool that uses your voice as the primary interface between you and your computer. From start to finish, you can create, edit, format, reorder, and export your documents just like you would on MS Word or Google Docs without ever touching a keyboard or mouse. 
+MyVoice is a document editing tool that uses your voice as the primary interface between you and your computer. From start to finish, you can create, edit, format, reorder, and export your documents just like you would on MS Word or Google Docs without ever touching a keyboard or mouse. 
 
-Speechful is intended to be a desktop application that allows you to write up an essay, an email, or complete a written test by converting your voice into context-aware instructions. By clearly indexing every paragraph and sentence visually, giving voice instructions has never been easier. Once you open up a document, you can simply say a command such as "start typing" or "delete this from paragraph 2" followed by what you would like to type or delete. The supported commands are described below. Once you finish typing, you can tell Speechful to add punctation after a certain word, move your cursor to another paragraph, and most importantly, change words that were misunderstood.
+MyVoice is intended to be a desktop application that allows you to write up an essay, an email, or complete a written test by converting your voice into context-aware instructions. By clearly indexing every paragraph and sentence visually, giving voice instructions has never been easier. Once you open up a document, you can simply say a command such as "start typing" or "delete this from paragraph 2" followed by what you would like to type or delete. The supported commands are described below. Once you finish typing, you can tell Speechful to add punctation after a certain word, move your cursor to another paragraph, and most importantly, change words that were misunderstood.
 
 ## Functionality
 Currently supported voice functionality:
@@ -41,8 +41,8 @@ Planned functionality:
 - [ ] Change size - "Change size of paragraph (index)"
 - [ ] Change color - "Change color of paragraph (index)"
 - [ ] Make above paragraph functions into sentence functions
-- [ ] Move Speechful to a container such as Electron
-- [ ] Export a speechful document into common file types
+- [ ] Move MyVoice to a container such as Electron
+- [ ] Export a MyVoice document into common file types
 - [ ] Create a tutorial for new users
 
 ## Technologies & Frameworks
