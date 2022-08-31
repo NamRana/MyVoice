@@ -1,0 +1,71 @@
+nav {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+  height: 5vh;
+  font-size: 16pt;
+  display: flex;
+  color: #e1e883;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+nav > a {
+  padding-right: 30px;
+  color: #20BD67;
+  text-decoration: none;
+}
+
+/* DOCUMENT STYLING */
+.document-pane {
+  font-size: 14pt;
+  margin: 0 auto;
+  width: 66vw;
+  padding-bottom: 20vh;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.button-remove {
+  border: none;
+  background-color: white;
+  color: rgb(219, 114, 114);
+}
+
+.document-title {
+  font-size: 26pt;
+}
+
+.paragraph-editor {
+  margin: 0;
+  min-height: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 14pt;
+  min-width: 40px;
+}
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-add {
+  border: none;
+  background-color: rgb(233, 236, 228);
+  color: #20BD67;
+  display: block;
+}
+
+button:focus {
+  outline: none;
+}
+
+p:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 2px 1px #20BD67;
+}

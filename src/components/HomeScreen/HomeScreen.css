@@ -1,0 +1,86 @@
+.HomeScreen {
+    background-color: rgb(237, 213, 238);
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.HomeScreen > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HomeScreen h1 {
+    color: #354456;
+}
+
+.HomeScreen .SpeechfulHeader {
+    color: #2b19b6;
+}
+
+.HomeScreen header img,
+.HomeScreen header h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.DocumentItem {
+    margin: 25px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px -3px 0px #9d1962, 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 250px;
+    width: 200px;
+    color: #354456;
+    text-decoration: none;
+}
+
+.DocumentItem > p {
+  font-weight: bold;
+  color: rgb(144, 28, 82);
+  margin: 5px 0;
+}
+
+
+.CreateDocumentItem {
+  text-align: center;  
+  background-color: #C1FFDD;
+}
+
+.CreateDocumentItem > h1 {
+    color: #20BD67;
+    font-size: 50px;
+}
+
+.CreateDocumentItem > h2 {
+    color: #354456;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.DocumentTitle {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 25px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.DocumentGrid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 20vh;
+}
