@@ -1,8 +1,6 @@
- ![Logo](./src/res/logo.svg) Speechful 
+MyVoice  
 
-> Voice editing made easy
-
-A speech-based document editing tool intened for those who cannot use keyboards. 
+Create and edit document with your voice only.
 
 ## Table of Contents
 1. [Project Aims](#project-aims)
